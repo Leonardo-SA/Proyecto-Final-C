@@ -1,7 +1,7 @@
 all: p1 p2 p3 run clean
 
 p1: proyecto1.c
-  gcc proyecto1.c -o exe 
+	gcc proyecto1.c -o exe 
 
 p2: proyecto2.c
 	gcc proyecto2.c -o exe -lm
